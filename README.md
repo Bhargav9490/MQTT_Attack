@@ -20,3 +20,10 @@ MQTT enables devices, or "clients," to communicate via a central server called a
   - QoS 2: Exactly once (guaranteed message delivery without duplicates).
 - **Retained Messages:** The broker can retain the last message sent on a topic, enabling newly connected clients to receive it immediately upon subscribing.
 - **Will Messages:** If a client disconnects unexpectedly, the broker can send a predefined "last will" message to notify other clients.
+
+## Common Use Cases
+MQTT is widely used in:
+- IoT devices like smart homes, healthcare monitoring, and industrial control systems.
+- Mobile applications, especially where efficient use of network resources is critical.
+- Real-time systems requiring frequent updates with minimal latency.
+
