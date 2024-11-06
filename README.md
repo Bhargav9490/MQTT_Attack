@@ -12,3 +12,11 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe p
 MQTT enables devices, or "clients," to communicate via a central server called a "broker." The broker receives and distributes messages between clients, facilitating decoupled, real-time data exchange.
 
 ## Key Features of MQTT
+
+- **Publish-Subscribe Model:** Clients publish messages to specific topics, and other clients subscribe to those topics. This decouples message senders and receivers.
+- **QoS (Quality of Service) Levels:** MQTT supports three levels of Quality of Service to manage message delivery reliability:
+  -- QoS 0: At most once (fire-and-forget).
+  -- QoS 1: At least once (message will be delivered at least once, potentially multiple times).
+  -- QoS 2: Exactly once (guaranteed message delivery without duplicates).
+- **Retained Messages:** The broker can retain the last message sent on a topic, enabling newly connected clients to receive it immediately upon subscribing.
+- **Will Messages:** If a client disconnects unexpectedly, the broker can send a predefined "last will" message to notify other clients.
