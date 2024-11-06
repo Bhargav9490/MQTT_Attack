@@ -4,9 +4,9 @@ The rise of the Internet of Things (IoT) has led to an increase in devices conne
 ## About MQTT
 MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe protocol that operates on top of the TCP/IP stack, designed for resource-constrained environments. Created in 1999 by IBM for monitoring oil pipelines, MQTT is widely used in IoT applications, where network bandwidth and power usage are limited. Key aspects of MQTT include:
 
-- Low Cost: Due to its simplicity and low overhead, MQTT is economical in terms of data and resource usage, making it ideal for IoT applications.
-- Low Bandwidth: MQTT minimizes bandwidth usage, allowing efficient communication even on limited networks.
-- Handles Unstable Connections: The protocol is built to handle unreliable connections, allowing for intermittent connectivity without losing messages.
-- Port 1883: MQTT communicates over TCP/IP, typically using port 1883 for unencrypted data transmission.
+- **Low Cost:** Due to its simplicity and low overhead, MQTT is economical in terms of data and resource usage, making it ideal for IoT applications.
+- **Low Bandwidth:** MQTT minimizes bandwidth usage, allowing efficient communication even on limited networks.
+- **Handles Unstable Connections:** The protocol is built to handle unreliable connections, allowing for intermittent connectivity without losing messages.
+- **Port 1883:** MQTT communicates over TCP/IP, typically using port 1883 for unencrypted data transmission.
 
 MQTT enables devices, or "clients," to communicate via a central server called a "broker." The broker receives and distributes messages between clients, facilitating decoupled, real-time data exchange.
