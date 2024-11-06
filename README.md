@@ -10,3 +10,5 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe p
 - **Port 1883:** MQTT communicates over TCP/IP, typically using port 1883 for unencrypted data transmission.
 
 MQTT enables devices, or "clients," to communicate via a central server called a "broker." The broker receives and distributes messages between clients, facilitating decoupled, real-time data exchange.
+
+## Key Features of MQTT
