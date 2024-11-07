@@ -25,3 +25,6 @@ Do another **Nmap Scan**(nmap -p- tom), the -p- option was used to scan all 65,5
   - Port 1880: Open (vsat-control)
   - Port 1883: Open (MQTT)
 This confirms that port 1883 (MQTT) is open, as it was not detected in the previous scan due to the limited port range.
+<p align="center">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/nmap-p.jpeg" alt="GitHub Logo" width="400">
+</p>
