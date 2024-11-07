@@ -9,6 +9,9 @@ In an IoT-based monitoring system, multiple sensors (such as gas sensors, air qu
 ## Technology Focus
 **Internet of Things (IoT):** This attack targets IoT devices using the MQTT protocol to communicate sensor data.
 
+## Tools and Requirements
+- Kali Linux:
+  - Kali Linux is a security-focused operating system that provides numerous tools for penetration testing and security assessments. It will be used as the attacker's platform in this scenario to simulate MQTT data manipulation.
 ## Scenario Explanation
 An attacker uses an MQTT client, such as Mosquitto Client, to publish false data to specific topics associated with critical sensors. By doing so, the attacker manipulates the sensor readings, making it appear as though dangerous conditions exist when, in reality, everything is normal. This can lead to unnecessary alarms, disrupting operations, or, in the case of safety-critical environments, causing panic or operational shutdowns.
 
