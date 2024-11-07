@@ -35,4 +35,7 @@ To subscribe to all topics on the MQTT broker and display real-time sensor data,
 ```bash
 mosquitto_sub -h tom -p 1883 -t '#' -v
 ```
+<p align="center">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/mosquitto.jpeg" alt="GitHub Logo" width="400">
+</p>
 This command subscribes to all topics (#) and outputs real-time sensor data with topic names and values, such as gas levels (H2, LPG, CO) and air quality metrics (PM2.5, CO2, TEMP).
