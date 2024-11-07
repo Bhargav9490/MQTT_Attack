@@ -3,8 +3,8 @@
 In an IoT-based monitoring system, multiple sensors (such as gas sensors, air quality sensors, and light sensors) are connected to an MQTT broker. The system continuously monitors sensor readings to detect unsafe environmental conditions and trigger alarms when threshold values are exceeded. However, this system is vulnerable to attacks that exploit the MQTT protocol, allowing an attacker to inject false sensor data and manipulate readings.
 
 ## Vulnerability / Attack Type
-- # Protocol: MQTT
-- # Attack: Data Manipulation / Message Injection
+- **Protocol:** MQTT
+- **Attack:** Data Manipulation / Message Injection
 
 ## Technology Focus
 **Internet of Things (IoT):** This attack targets IoT devices using the MQTT protocol to communicate sensor data.
