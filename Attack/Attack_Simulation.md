@@ -86,3 +86,18 @@ This is the output:
 <p align="center">
   <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/Attack.jpeg" alt="GitHub Logo" width="400">
 </p>
+
+Step - 7:
+Attack Results:
+Normal State
+<p align="center">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/Normal.jpeg" alt="GitHub Logo" width="400">
+</p>
+Attack with Low Topic Value
+<p align="center">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/Low_Attack.jpeg" alt="GitHub Logo" width="400">
+</p>
+Attack with High Topic Value
+<p align="center">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/High_Volume.jpeg" alt="GitHub Logo" width="400">
+</p>
