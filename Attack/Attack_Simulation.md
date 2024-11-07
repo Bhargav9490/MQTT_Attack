@@ -28,3 +28,9 @@ This confirms that port 1883 (MQTT) is open, as it was not detected in the previ
 <p align="center">
   <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/nmap-p.jpeg" alt="GitHub Logo" width="400">
 </p>
+
+## Step - 4: Monitoring Sensor Data Using MQTT
+To subscribe to all topics on the MQTT broker and display real-time sensor data, use the following command:
+
+```bash
+mosquitto_sub -h tom -p 1883 -t '#' -v
