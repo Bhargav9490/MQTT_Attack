@@ -21,6 +21,11 @@ In an IoT-based monitoring system, multiple sensors (such as gas sensors, air qu
 - Python and Paho MQTT Library (for advanced simulation):
   - Python can be used for scripting and automation of the attack scenario.
   - Paho MQTT Library: This Python library enables MQTT communication and will be used to create custom scripts that continuously publish fake sensor data to the MQTT broker.
+- Nmap:
+  - Tool Type: Network Scanning Tool
+  - Purpose: Nmap (Network Mapper) is a network discovery and security auditing tool. It can identify open ports, running services, and other information about devices on a network.
+
+
 
 ## Scenario Explanation
 An attacker uses an MQTT client, such as Mosquitto Client, to publish false data to specific topics associated with critical sensors. By doing so, the attacker manipulates the sensor readings, making it appear as though dangerous conditions exist when, in reality, everything is normal. This can lead to unnecessary alarms, disrupting operations, or, in the case of safety-critical environments, causing panic or operational shutdowns.
