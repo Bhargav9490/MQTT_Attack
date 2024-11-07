@@ -14,3 +14,7 @@ Do an Nmap scan on the target ip, Nmap scan (nmap -A tom) was an aggressive scan
 - OS Detection: The device is running a Linux OS with kernel version 4.x/5.x.
 - Network Distance: 1 hop.
 **Note:** This scan did not detect port 1883 (MQTT) as it was outside the scanned port range.
+
+<p align="center">
+  <img src="Attack/nmap.jpeg" alt="GitHub Logo" width="400">
+</p>
