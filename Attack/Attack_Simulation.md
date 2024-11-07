@@ -31,11 +31,10 @@ This confirms that port 1883 (MQTT) is open, as it was not detected in the previ
 
 ## Step - 4: Monitoring Sensor Data Using MQTT
 To subscribe to all topics on the MQTT broker and display real-time sensor data, use the following command:
-
 ```bash
 mosquitto_sub -h tom -p 1883 -t '#' -v
 ```
+This command subscribes to all topics (#) and outputs real-time sensor data with topic names and values, such as gas levels (H2, LPG, CO) and air quality metrics (PM2.5, CO2, TEMP).
 <p align="center">
   <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/mosquitto.jpeg" alt="GitHub Logo" width="400">
 </p>
-This command subscribes to all topics (#) and outputs real-time sensor data with topic names and values, such as gas levels (H2, LPG, CO) and air quality metrics (PM2.5, CO2, TEMP).
