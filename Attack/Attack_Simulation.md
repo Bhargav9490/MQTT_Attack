@@ -16,5 +16,5 @@ Do an Nmap scan on the target ip, Nmap scan (nmap -A tom) was an aggressive scan
 **Note:** This scan did not detect port 1883 (MQTT) as it was outside the scanned port range.
 
 <p align="center">
-  <img src="Attack/nmap.jpeg" alt="GitHub Logo" width="400">
+  <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/nmap.jpeg" alt="GitHub Logo" width="400">
 </p>
