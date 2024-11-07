@@ -8,7 +8,7 @@ In my /etc/hosts file, I've mapped my victim's IP to the alias 'tom' for securit
 </p>
 
 ## Step - 2: 
-Do an Nmap scan on the target ip, Nmap scan (nmap -A tom) was an aggressive scan on tom, focusing only on common ports rather than all possible ones. Key findings:
+Do an **Nmap scan** on the target ip, Nmap scan (nmap -A tom) was an aggressive scan on tom, focusing only on common ports rather than all possible ones. Key findings:
 - Port 22 (SSH) is open, running OpenSSH 9.6p1 on Ubuntu.
 - SSH Host Keys: Shows both ECDSA and ED25519 keys.
 - OS Detection: The device is running a Linux OS with kernel version 4.x/5.x.
