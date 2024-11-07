@@ -77,7 +77,7 @@ finally:
     client.disconnect()
 ```
 
-Step - 6:
+## Step - 6:
 Running the script.py file by adding the broker address, topic, message, and delay.
 ```bash
 python3 script.py tom ZPHS01B/CO '10' 1.00
@@ -87,7 +87,7 @@ This is the output:
   <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/Attack.jpeg" alt="GitHub Logo" width="400">
 </p>
 
-Step - 7:
+## Step - 7:
 Attack Results:
 Normal State
 <p align="center">
