@@ -18,3 +18,10 @@ Do an **Nmap scan** on the target ip, Nmap scan (nmap -A tom) was an aggressive 
 <p align="center">
   <img src="https://github.com/Bhargav9490/MQTT_Attack/blob/main/Attack/nmap.jpeg" alt="GitHub Logo" width="400">
 </p>
+
+## Step - 3: 
+Do another **Nmap Scan**(nmap -p- tom), the -p- option was used to scan all 65,535 TCP ports on tom (IP: 172.16.17.207). Results show:
+  - Port 22: Open (SSH)
+  - Port 1880: Open (vsat-control)
+  - Port 1883: Open (MQTT)
+This confirms that port 1883 (MQTT) is open, as it was not detected in the previous scan due to the limited port range.
