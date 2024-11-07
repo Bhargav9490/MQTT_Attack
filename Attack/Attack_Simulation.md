@@ -76,3 +76,9 @@ except KeyboardInterrupt:
 finally:
     client.disconnect()
 ```
+
+Step - 6:
+Running the script.py file by adding the broker address, topic, message, and delay.
+```bash
+python3 script.py tom ZPHS01B/CO '10' 1.00
+```
